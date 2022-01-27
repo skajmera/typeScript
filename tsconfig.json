@@ -1,0 +1,25 @@
+{"compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "lib": ["ES6"],
+    "rootDir": "src",
+    "outDir": "build",
+    "strict": true,
+    "esModuleInterop": true
+},
+    "include": ["src/**/*.ts"]
+}  
+
+
+/*
+echo "# typeScript" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/skajmera/typeScript.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/skajmera/typeScript.git
+git branch -M main
+git push -u origin main */
