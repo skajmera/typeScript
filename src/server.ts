@@ -6,6 +6,7 @@ app.get('/test',(req:Request,res:Response)=>{
 
     return res.status(200).json({messge:req.body})
 })
+console.log("subhash")
 
 app.listen(port,()=>console.log(`server is running on port ${port}`))
 
